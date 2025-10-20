@@ -12,5 +12,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#app {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem; 
+ justify-content: center;
+
+  .familyDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid yellow;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
 
 
